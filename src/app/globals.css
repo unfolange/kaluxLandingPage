@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0b1120;
+  --panel: #151b2b;
+  --panel-raised: #1a2236;
+  --border: #2a3345;
+  --foreground: #e6e8ed;
+  --muted: #8b93a8;
+  --accent-deep: #0d47ff;
+  --accent: #268bff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-panel: var(--panel);
+  --color-panel-raised: var(--panel-raised);
+  --color-border: var(--border);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-accent-deep: var(--accent-deep);
+  --color-accent: var(--accent);
+  --font-sans: var(--font-exo2);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-exo2), "Segoe UI", Arial, sans-serif;
+}
+
+::selection {
+  background: var(--accent-deep);
+  color: #ffffff;
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(to right, var(--border) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--border) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
