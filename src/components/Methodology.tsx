@@ -43,24 +43,20 @@ export function Methodology() {
           cambie.
         </p>
 
-        <div className="mt-14 grid gap-12 lg:grid-cols-2 lg:items-start">
-          <div className="grid gap-8 sm:grid-cols-2">
-            {PRINCIPLES.map((p) => (
-              <div key={p.tag}>
-                <span className="font-mono text-xs tracking-widest text-accent">
-                  {p.tag}
-                </span>
-                <h3 className="mt-2 text-base font-semibold text-foreground">
-                  {p.title}
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed text-muted">
-                  {p.body}
-                </p>
-              </div>
-            ))}
-          </div>
-
-
+        <div className="mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+          {PRINCIPLES.map((p) => (
+            <div key={p.tag}>
+              <span className="font-mono text-xs tracking-widest text-accent">
+                {p.tag}
+              </span>
+              <h3 className="mt-2 text-base font-semibold text-foreground">
+                {p.title}
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-muted">
+                {p.body}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
