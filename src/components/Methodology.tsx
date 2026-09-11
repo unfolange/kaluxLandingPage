@@ -21,37 +21,6 @@ const PRINCIPLES = [
   },
 ];
 
-function FolderTree() {
-  return (
-    <div className="rounded-sm border border-border bg-panel/80">
-      <div className="flex items-center gap-2 border-b border-border px-4 py-3">
-        <span className="h-2.5 w-2.5 rounded-full bg-border" />
-        <span className="h-2.5 w-2.5 rounded-full bg-border" />
-        <span className="h-2.5 w-2.5 rounded-full bg-border" />
-        <span className="ml-2 font-mono text-xs text-muted">
-          así organizamos tu información
-        </span>
-      </div>
-      <pre className="overflow-x-auto p-5 font-mono text-[13px] leading-7 text-muted">
-        <code>
-          <span className="text-foreground">tu-empresa/</span>{"\n"}
-          ├── areas/{"\n"}
-          │   ├── <span className="text-accent">ventas/</span>{"\n"}
-          │   ├── operaciones/{"\n"}
-          │   └── finanzas/{"\n"}
-          ├── conocimiento/{"\n"}
-          │   ├── politicas.md{"\n"}
-          │   └── procesos/{"\n"}
-          ├── sistemas/{"\n"}
-          │   ├── crm{"\n"}
-          │   └── erp{"\n"}
-          └── <span className="text-accent">ia/</span>
-          {"    "}← usa tu información, no la reemplaza
-        </code>
-      </pre>
-    </div>
-  );
-}
 
 export function Methodology() {
   return (
@@ -91,7 +60,7 @@ export function Methodology() {
             ))}
           </div>
 
-          <FolderTree />
+
         </div>
       </div>
     </section>

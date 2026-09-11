@@ -5,7 +5,6 @@ const MODELS = [
   "Llama",
   "Mistral",
   "DeepSeek",
-  "el modelo open-source que elijas",
 ];
 
 export function ModelAgnostic() {
@@ -38,7 +37,7 @@ export function ModelAgnostic() {
             </span>
           ))}
           <span className="rounded-sm border border-dashed border-accent/50 px-4 py-2 font-mono text-sm text-accent">
-            + lo que salga después
+            el modelo open-source que elijas
           </span>
         </div>
       </div>
