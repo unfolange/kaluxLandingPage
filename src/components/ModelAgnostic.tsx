@@ -15,7 +15,7 @@ export function ModelAgnostic() {
         <div className="flex items-center gap-3">
           <span className="h-px w-8 bg-accent" />
           <span className="font-mono text-xs tracking-[0.25em] text-muted">
-            04 · MODEL-AGNOSTIC
+            04 · SIN ATARTE A UN PROVEEDOR
           </span>
         </div>
 
@@ -23,9 +23,9 @@ export function ModelAgnostic() {
           Se conecta con cualquier modelo. Hoy, y el que venga después.
         </h2>
         <p className="mt-5 max-w-2xl leading-relaxed text-muted">
-          La capa ICM no está construida sobre un modelo ni un framework de
-          agentes específico. El modelo es intercambiable — tu
-          infraestructura de contexto no.
+          Lo que construimos no depende de un modelo ni de una herramienta
+          específica. El modelo se puede cambiar — la base que construimos
+          contigo, no.
         </p>
 
         <div className="mt-12 flex flex-wrap gap-3">

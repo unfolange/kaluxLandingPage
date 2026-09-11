@@ -9,7 +9,7 @@ const CONTRASTS = [
   },
   {
     tag: "NUESTRA APUESTA",
-    body: "Infraestructura que hace a tu equipo más capaz — no un headcount más pequeño.",
+    body: "Infraestructura que hace a tu equipo más capaz — no un equipo más pequeño.",
   },
 ];
 

@@ -4,7 +4,7 @@ import { CONTACT_URL } from "@/lib/content";
 
 const NAV_LINKS = [
   { href: "#problema", label: "El problema" },
-  { href: "#metodologia", label: "Metodología" },
+  { href: "#metodologia", label: "Cómo lo hacemos" },
   { href: "#clientes", label: "Para quién es" },
   { href: "#proceso", label: "Proceso" },
 ];

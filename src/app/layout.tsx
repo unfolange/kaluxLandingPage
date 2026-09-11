@@ -11,7 +11,7 @@ const exo2 = Exo_2({
 export const metadata: Metadata = {
   title: "Kaelux — Infraestructura inteligente para IA",
   description:
-    "No compres agentes, construye infraestructura. Kaelux diseña la capa de arquitectura que le permite a tu empresa implementar IA sobre su propio stack, sin atarse a un proveedor.",
+    "No compres agentes, construye infraestructura. Kaelux organiza la información de tu empresa para que puedas implementar IA sobre tus propios sistemas, sin atarte a un proveedor.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

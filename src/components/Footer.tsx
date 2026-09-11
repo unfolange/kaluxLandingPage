@@ -12,7 +12,7 @@ export function Footer() {
             El problema
           </a>
           <a href="#metodologia" className="hover:text-foreground">
-            Metodología
+            Cómo lo hacemos
           </a>
           <a href="#clientes" className="hover:text-foreground">
             Para quién es
@@ -26,9 +26,8 @@ export function Footer() {
         </nav>
       </div>
 
-      <div className="mt-10 flex flex-col gap-2 border-t border-border pt-6 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
+      <div className="mt-10 border-t border-border pt-6 text-xs text-muted">
         <p>© {new Date().getFullYear()} Kaelux. Infraestructura, no agentes sueltos.</p>
-        <p className="font-mono">ICM — Interpretable Context Methodology</p>
       </div>
     </footer>
   );

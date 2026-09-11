@@ -16,7 +16,7 @@ const CRITERIA = [
   },
   {
     tag: "04",
-    title: "No quieren lock-in",
+    title: "No quieren depender de un proveedor",
     body: "Prefieren no atarse a una sola herramienta, modelo o proveedor de IA.",
   },
 ];

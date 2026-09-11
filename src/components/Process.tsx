@@ -7,7 +7,7 @@ const STEPS = [
   {
     tag: "02",
     title: "Diagnóstico",
-    body: "Evaluamos tu stack y tus datos, y definimos dónde y cómo construir la capa ICM.",
+    body: "Evaluamos tus sistemas y tus datos, y definimos dónde y cómo construir esa base.",
   },
   {
     tag: "03",
@@ -17,7 +17,7 @@ const STEPS = [
   {
     tag: "04",
     title: "Construcción",
-    body: "Implementamos la infraestructura sobre tu stack actual, sin detener tu operación.",
+    body: "Implementamos la infraestructura sobre tus sistemas actuales, sin detener tu operación.",
   },
 ];
 

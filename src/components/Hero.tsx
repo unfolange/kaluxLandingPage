@@ -11,7 +11,7 @@ export function Hero() {
           <div className="flex items-center gap-3">
             <span className="h-px w-8 bg-accent" />
             <span className="font-mono text-xs tracking-[0.25em] text-muted">
-              INFRAESTRUCTURA DE IA · MODEL-AGNOSTIC
+              INFRAESTRUCTURA DE IA · SIN ATARTE A UN PROVEEDOR
             </span>
           </div>
 
@@ -24,10 +24,10 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
-            Kaelux diseña la capa de arquitectura que le permite a tu empresa
-            implementar y seguir desarrollando soluciones de IA sobre su
-            propio stack — sin migrar tus datos y sin quedar atado a un
-            modelo, framework o proveedor.
+            Kaelux construye la base que le permite a tu empresa implementar
+            y seguir desarrollando soluciones de IA sobre sus propios
+            sistemas — sin migrar tus datos y sin quedar atada a un modelo
+            o proveedor específico.
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
@@ -43,7 +43,7 @@ export function Hero() {
               href="#metodologia"
               className="inline-flex items-center justify-center rounded-sm border border-border px-6 py-3 text-sm font-medium text-foreground transition-colors hover:border-accent/60"
             >
-              Cómo funciona ICM
+              Cómo lo hacemos
             </a>
           </div>
         </div>

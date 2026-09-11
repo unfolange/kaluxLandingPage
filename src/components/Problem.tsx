@@ -1,14 +1,14 @@
 const AGENT_ISSUES = [
-  "Vive dentro de una herramienta cerrada, no en tu arquitectura",
-  "Depende de un solo proveedor y de su pricing",
+  "Vive dentro de una herramienta cerrada, no en tus sistemas",
+  "Depende de un solo proveedor y de su precio",
   "Automatiza una tarea puntual, no tu operación",
   "Si cambias de herramienta, pierdes lo construido",
   "Se diseña para reemplazar tareas, no para potenciar personas",
 ];
 
 const INFRA_TRAITS = [
-  "Vive dentro de tu propio stack y tus propios datos",
-  "Funciona con cualquier modelo — sin lock-in",
+  "Vive dentro de tus propios sistemas y tus propios datos",
+  "Funciona con cualquier modelo, sin atarte a uno solo",
   "Es la base para automatizar y aumentar cualquier proceso futuro",
   "Se queda contigo aunque cambies de proveedor de IA",
   "Se diseña para aumentar la productividad de tu equipo",

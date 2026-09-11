@@ -1,14 +1,14 @@
 const LAYERS = [
   {
     tag: "01",
-    title: "Tu stack actual",
+    title: "Tus sistemas actuales",
     detail: "CRM, ERP, bases de datos, documentos, sistemas internos",
     emphasis: false,
   },
   {
     tag: "02",
-    title: "Capa Kaelux — ICM",
-    detail: "Contexto interpretable. No migra ni reemplaza lo que ya tienes",
+    title: "Capa Kaelux",
+    detail: "No mueve ni reemplaza lo que ya tienes",
     emphasis: true,
   },
   {
