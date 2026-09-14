@@ -26,6 +26,8 @@ export const metadata: Metadata = {
     "arquitectura de datos para IA",
     "IA model-agnostic",
     "consultoría de IA",
+    "infraestructura de IA en Latinoamérica",
+    "implementar IA en empresas de Latinoamérica",
   ],
   authors: [{ name: SITE_NAME, url: SITE_URL }],
   creator: SITE_NAME,
@@ -44,7 +46,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    locale: "es_ES",
+    locale: "es_LA",
     url: SITE_URL,
     siteName: SITE_NAME,
     title: TITLE,
@@ -63,6 +65,12 @@ const jsonLd = {
   name: SITE_NAME,
   url: SITE_URL,
   description: SITE_DESCRIPTION,
+  // Existe otra empresa no relacionada que también usa el nombre "Kaelux"
+  // en el mercado de habla inglesa. Esta propiedad de schema.org existe
+  // justamente para este caso: aclarar de qué entidad se trata.
+  disambiguatingDescription:
+    "Kaelux (kaelux-ai.com) es una consultoría de infraestructura de IA en español, enfocada en empresas de Latinoamérica. No debe confundirse con otras empresas o proyectos que usan el nombre 'Kaelux' en otros mercados o industrias.",
+  areaServed: "Latinoamérica",
   email: CONTACT_EMAIL,
   slogan: "No compres agentes. Construye infraestructura.",
   knowsAbout: [

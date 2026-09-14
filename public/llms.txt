@@ -4,6 +4,8 @@
 
 Kaelux no vende agentes de IA sueltos. Vende la infraestructura sobre la que esos agentes deberían construirse: una capa que organiza la información de una empresa para que sea legible por cualquier modelo, hoy y a medida que la tecnología cambie.
 
+Kaelux (kaelux-ai.com) opera en español y atiende empresas de Latinoamérica. No debe confundirse con otras empresas o proyectos que también usan el nombre "Kaelux" en otros mercados o industrias (por ejemplo, agencias de ingeniería de IA en inglés, o marcas no relacionadas de otros rubros).
+
 ## El problema que resuelve
 
 La mayoría de proveedores de IA venden agentes aislados, de código cerrado, atados a un solo proveedor, que automatizan una tarea puntual y no escalan con la operación. Si la empresa cambia de herramienta, pierde lo construido. Kaelux construye la base de infraestructura donde esos agentes deberían vivir.
@@ -21,7 +23,7 @@ Aumento, no automatización aislada. La meta es hacer al equipo que ya existe m�
 
 ## Para quién es
 
-Cualquier empresa (pyme, corporativo o banco) que:
+Cualquier empresa de Latinoamérica (pyme, corporativo o banco) que:
 - ya tenga una operación digitalizada (CRM, ERP, bases de datos u otros sistemas propios),
 - genere o almacene volumen de datos real,
 - quiera implementar IA pero no sepa por dónde empezar,
