@@ -37,7 +37,7 @@ export function Hero() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-sm bg-gradient-to-r from-accent-deep to-accent px-6 py-3 text-sm font-semibold text-white transition-opacity hover:opacity-90"
             >
-              Agendar una llamada
+              Agendar diagnóstico
             </a>
             <a
               href="#metodologia"

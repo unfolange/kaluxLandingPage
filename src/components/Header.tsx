@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Logo } from "./Logo";
-import { CONTACT_URL } from "@/lib/content";
+import { CONTACT_URL, WHATSAPP_URL } from "@/lib/content";
 
 const NAV_LINKS = [
   { href: "#problema", label: "El problema" },
@@ -29,14 +29,24 @@ export function Header() {
           ))}
         </nav>
 
-        <a
-          href={CONTACT_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center rounded-sm border border-accent/60 bg-accent-deep/10 px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-accent hover:bg-accent-deep/20"
-        >
-          Agendar llamada
-        </a>
+        <div className="flex items-center gap-3">
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden items-center rounded-sm border border-border px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-accent/60 sm:inline-flex"
+          >
+            Tengo una pregunta
+          </a>
+          <a
+            href={CONTACT_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center rounded-sm border border-accent/60 bg-accent-deep/10 px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-accent hover:bg-accent-deep/20"
+          >
+            Agendar diagnóstico
+          </a>
+        </div>
       </div>
     </header>
   );
