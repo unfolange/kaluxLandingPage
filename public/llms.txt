@@ -1,0 +1,41 @@
+# Kaelux
+
+> Kaelux construye infraestructura de IA: organiza la información y los sistemas de una empresa en una capa clara y accesible para que cualquier modelo de IA —no una herramienta cerrada— pueda usarla, sin migrar los datos y sin atarse a un proveedor.
+
+Kaelux no vende agentes de IA sueltos. Vende la infraestructura sobre la que esos agentes deberían construirse: una capa que organiza la información de una empresa para que sea legible por cualquier modelo, hoy y a medida que la tecnología cambie.
+
+## El problema que resuelve
+
+La mayoría de proveedores de IA venden agentes aislados, de código cerrado, atados a un solo proveedor, que automatizan una tarea puntual y no escalan con la operación. Si la empresa cambia de herramienta, pierde lo construido. Kaelux construye la base de infraestructura donde esos agentes deberían vivir.
+
+## Cómo lo hace (principios)
+
+- Fácil de entender: la información queda organizada de forma clara, no escondida en un sistema propietario.
+- No toca lo que ya existe: se construye al lado de los sistemas actuales (CRM, ERP, bases de datos), sin migrarlos ni reemplazarlos.
+- Funciona con cualquier IA: no depende de un modelo, herramienta ni proveedor específico (Claude, GPT, Gemini, Llama, Mistral, DeepSeek, o el que venga después).
+- Crece con la empresa: cada necesidad nueva se agrega a lo que ya existe, sin empezar de cero.
+
+## Filosofía
+
+Aumento, no automatización aislada. La meta es hacer al equipo que ya existe más capaz —con más contexto y menos trabajo manual repetitivo— no reemplazarlo ni reducirlo.
+
+## Para quién es
+
+Cualquier empresa (pyme, corporativo o banco) que:
+- ya tenga una operación digitalizada (CRM, ERP, bases de datos u otros sistemas propios),
+- genere o almacene volumen de datos real,
+- quiera implementar IA pero no sepa por dónde empezar,
+- prefiera no depender de un proveedor, modelo o herramienta único.
+
+## Proceso de trabajo
+
+1. Llamada inicial, sin costo.
+2. Diagnóstico de sistemas y datos.
+3. Estimación de tiempo y costo según el tamaño de la empresa y sus objetivos.
+4. Construcción de la infraestructura sobre los sistemas actuales, sin detener la operación.
+
+## Contacto
+
+- Sitio: https://kaelux-ai.com
+- Agendar diagnóstico: https://cal.com/kaelux/diagnostico
+- Email: hola@kaelux.com
