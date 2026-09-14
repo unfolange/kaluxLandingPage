@@ -1,8 +1,7 @@
 // Link de agendamiento (Cal.com). El horario de disponibilidad (lunes a
 // viernes 9am-6pm, sábados 8am-1pm) se configura en Cal.com, en el
 // "Availability schedule" del evento — no se puede fijar desde acá.
-// TODO: confirmar que este es el slug real del evento en Cal.com.
-export const CONTACT_URL = "https://cal.com/kaelux/diagnostico";
+export const CONTACT_URL = "https://cal.com/kaeluxai/15min";
 
 // TODO: reemplazar por el correo real de contacto.
 export const CONTACT_EMAIL = "hola@kaelux.com";
