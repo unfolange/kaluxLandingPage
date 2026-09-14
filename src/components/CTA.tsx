@@ -1,4 +1,4 @@
-import { CONTACT_URL } from "@/lib/content";
+import { CONTACT_URL, WHATSAPP_URL } from "@/lib/content";
 
 export function CTA() {
   return (
@@ -16,14 +16,24 @@ export function CTA() {
           Una llamada, sin costo, para entender tu operación. El diagnóstico
           y la estimación vienen después, hechos a tu medida.
         </p>
-        <a
-          href={CONTACT_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-10 inline-flex items-center justify-center rounded-sm bg-gradient-to-r from-accent-deep to-accent px-7 py-3.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
-        >
-          Agendar una llamada
-        </a>
+        <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-center">
+          <a
+            href={CONTACT_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-sm bg-gradient-to-r from-accent-deep to-accent px-7 py-3.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+          >
+            Agendar diagnóstico
+          </a>
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-sm border border-border px-7 py-3.5 text-sm font-medium text-foreground transition-colors hover:border-accent/60"
+          >
+            Tengo una pregunta
+          </a>
+        </div>
       </div>
     </section>
   );
