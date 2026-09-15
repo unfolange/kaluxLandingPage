@@ -13,6 +13,11 @@ export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURICo
   "Hola, tengo una pregunta sobre Kaelux."
 )}`;
 
+export const FACEBOOK_URL =
+  "https://web.facebook.com/profile.php?id=61594457519115";
+
+export const INSTAGRAM_URL = "https://www.instagram.com/kaelux_ia/";
+
 export const SITE_URL = "https://kaelux-ai.com";
 
 export const SITE_NAME = "Kaelux";

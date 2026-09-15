@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
 import { Exo_2 } from "next/font/google";
-import { CONTACT_EMAIL, SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/content";
+import {
+  CONTACT_EMAIL,
+  FACEBOOK_URL,
+  INSTAGRAM_URL,
+  SITE_DESCRIPTION,
+  SITE_NAME,
+  SITE_URL,
+} from "@/lib/content";
 import "./globals.css";
 
 const exo2 = Exo_2({
@@ -72,6 +79,7 @@ const jsonLd = {
     "Kaelux (kaelux-ai.com) es una consultoría de infraestructura de IA en español, enfocada en empresas de Latinoamérica. No debe confundirse con otras empresas o proyectos que usan el nombre 'Kaelux' en otros mercados o industrias.",
   areaServed: "Latinoamérica",
   email: CONTACT_EMAIL,
+  sameAs: [FACEBOOK_URL, INSTAGRAM_URL],
   slogan: "No compres agentes. Construye infraestructura.",
   knowsAbout: [
     "Infraestructura de IA",
