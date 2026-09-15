@@ -9,7 +9,7 @@ const exo2 = Exo_2({
   weight: ["300", "400", "500", "600", "700"],
 });
 
-const TITLE = "Kaelux — Infraestructura inteligente para IA";
+const TITLE = "Kaelux — Infraestructura de IA para empresas";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
